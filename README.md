@@ -1,9 +1,3 @@
----
-layout: page
-title: CTF Rules
-permalink: /ctf-rules/
----
-
 # Swaraj CTF 2026 — Rules
 
 **Independence Day Special | Forge Resilience. Celebrate Freedom. Hack for Glory.**
