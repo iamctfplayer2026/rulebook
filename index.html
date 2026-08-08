@@ -1,21 +1,24 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swaraj CTF 2026 — Rules</title>
+    <title>CTF Rules & Guidelines</title>
+
     <style>
         body {
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.7;
-            max-width: 1000px;
-            margin: 40px auto;
-            padding: 20px;
+            margin: 0;
+            padding: 30px;
+            background: #f5f5f5;
+            font-family: Arial, sans-serif;
             color: #222;
-            background: #f7f7f7;
+            line-height: 1.6;
         }
 
         .container {
+            max-width: 1000px;
+            margin: auto;
             background: #fff;
             padding: 35px;
             border-radius: 12px;
@@ -88,124 +91,134 @@
         }
     </style>
 </head>
+
 <body>
 
 <div class="container">
 
-<h1>Swaraj CTF 2026 — Rules</h1>
+    <h1>CTF Rules & Guidelines</h1>
 
-<h3>Independence Day Special | Forge Resilience. Celebrate Freedom. Hack for Glory.</h3>
+    <p class="subtitle">
+        National Forensic Sciences University (NFSU)
+    </p>
 
-<p>
-We have a few rules and requirements (subject to change), and we really think you should read them.
-Why? Because if you violate them, we reserve the right to disqualify you and remove you from the competition.
-Also, if you don't bring the recommended items, you could be at a serious disadvantage.
-</p>
+    <h2>Competition Rules</h2>
 
-<h2>Event Snapshot</h2>
+    <ol>
+        <li>
+            <strong>No Denial of Service (DoS), disruption, or platform abuse.</strong>
+            No large-scale bruteforcing, automated scanning, or actions that degrade
+            the platform unless explicitly required by a challenge.
+        </li>
 
-<table>
-<tr><th>Item</th><th>Details</th></tr>
-<tr><td>Event</td><td>Swaraj CTF 2026</td></tr>
-<tr><td>Theme</td><td>Independence Day</td></tr>
-<tr><td>Date</td><td>14 August 2026</td></tr>
-<tr><td>Time</td><td>2:00 PM – 6:00 PM</td></tr>
-<tr><td>Duration</td><td>4 Hours</td></tr>
-<tr><td>Mode</td><td>Online (On-campus only)</td></tr>
-<tr><td>Venue</td><td>NFSU Computer Labs 211 &amp; 212</td></tr>
-<tr><td>Format</td><td>Jeopardy</td></tr>
-<tr><td>Categories</td><td>Web, Crypto, Reverse, Pwn, Forensics, OSINT, Mobile, Misc.</td></tr>
-<tr><td>Participation</td><td>Individual (Solo)</td></tr>
-<tr><td>Eligibility</td><td>Only NFSU Students</td></tr>
-<tr><td>Registration Fee</td><td>Free</td></tr>
-<tr><td>Registration Deadline</td><td>13 August 2026, 12:00 AM</td></tr>
-<tr><td>Prize Pool</td><td>₹7,000 (cash)</td></tr>
-<tr><td>Coordinators</td><td>
-    
-    <li>
-        <ul>Dhruvil: +91 6359012479</ul>
-        <ul>Om: +91 9687434746</ul>
-        <ul>Harshil: +91 8320755656</ul>
-    </li>
+        <li>
+            <strong>Solo competition only.</strong>
+            No teaming, sharing flags, solutions, or methodologies during the event.
+        </li>
 
-</td></tr>
-</table>
+        <li>
+            <strong>Eligibility.</strong>
+            Only currently enrolled NFSU students may compete.
+            Student ID verification may occur at any time.
+        </li>
 
-<h2>What Do I Need to Bring?</h2>
+        <li>
+            <strong>No cheating or unauthorized external help.</strong>
+            Solve challenges using your own skills. Do not search for or share
+            exact flag answers online.
+        </li>
 
-<ul>
-    <li>Your <strong>NFSU Student ID</strong> (mandatory for entry and eligibility verification).</li>
-    <li>A laptop capable of connecting to the lab network (wired or wireless). Lab systems will also be available.</li>
-    <li>Your <strong>registration confirmation</strong> (emailed after you register). If you didn't receive one, contact a coordinator immediately.</li>
-    <li>Your thinking cap and your sense of humor. This is a celebration of Independence Day as much as it is a competition.</li>
-</ul>
+        <li>
+            <strong>Stay in scope.</strong>
+            Do not attack systems outside the designated CTF environment,
+            including the scoreboard, campus infrastructure, or unrelated services.
+        </li>
 
-<h2>Competition Rules</h2>
+        <li>
+            <strong>Flag format.</strong>
+            Every valid flag follows the format <code>Swaraj{...}</code>.
+        </li>
 
-<ol>
-    <li><strong>Don't be a jerk.</strong> Attacking fellow participants, organizers, or competition infrastructure outside the defined challenge scope will result in immediate disqualification. Only interact with listed challenge targets.</li>
+        <li>
+            <strong>No brute-forcing flags.</strong>
+            Excessive incorrect submissions may trigger cooldowns, penalties,
+            or suspension.
+        </li>
 
-    <li><strong>No Denial of Service (DoS), disruption, or platform abuse.</strong> No large-scale bruteforcing, automated scanning, or actions that degrade the platform unless explicitly required by a challenge.</li>
+        <li>
+            <strong>Tie-breaking.</strong>
+            If scores are equal, the participant who reached the score first
+            (earlier last-solve timestamp) ranks higher.
+        </li>
 
-    <li><strong>Solo competition only.</strong> No teaming, sharing flags, solutions, or methodologies during the event.</li>
+        <li>
+            <strong>Only approved tools.</strong>
+            Standard public cybersecurity tools are allowed.
+            Tools intended to disrupt the competition are prohibited.
+        </li>
 
-    <li><strong>Eligibility.</strong> Only currently enrolled NFSU students may compete. Student ID verification may occur at any time.</li>
+        <li>
+            <strong>Internet connectivity.</strong>
+            The college/organizers do not guarantee the availability,
+            reliability, speed, or uninterrupted access to the internet during
+            the competition. Participants are responsible for arranging and
+            managing their own internet connection if required for the CTF.
+        </li>
 
-    <li><strong>No cheating or unauthorized external help.</strong> Solve challenges using your own skills. Do not search for or share exact flag answers online.</li>
+        <li>
+            <strong>Illegal or reckless behavior</strong>
+            may result in disqualification and referral to NFSU disciplinary
+            processes where applicable.
+        </li>
 
-    <li><strong>Stay in scope.</strong> Do not attack systems outside the designated CTF environment, including the scoreboard, campus infrastructure, or unrelated services.</li>
+        <li>
+            <strong>Respect physical boundaries.</strong>
+            Maintain appropriate conduct within the computer labs.
+        </li>
 
-    <li><strong>Flag format.</strong> Every valid flag follows the format <code>Swaraj{...}</code>.</li>
+        <li>
+            <strong>No offensive or abusive language.</strong>
+            This includes chat messages, usernames, aliases, or interactions.
+        </li>
 
-    <li><strong>No brute-forcing flags.</strong> Excessive incorrect submissions may trigger cooldowns, penalties, or suspension.</li>
+        <li>
+            <strong>No physical or emotional abuse.</strong>
+            Harassment, humiliation, ridicule, or degrading behavior toward
+            anyone is prohibited.
+        </li>
 
-    <li><strong>Tie-breaking.</strong> If scores are equal, the participant who reached the score first (earlier last-solve timestamp) ranks higher. <em>(Confirm with your scoring platform before publishing.)</em></li>
+        <li>
+            <strong>Organizer's decision is final.</strong>
+            Harshil, Dhruvil, and Om have the final authority on disputes
+            and rule interpretation.
+        </li>
 
-    <li><strong>Only approved tools.</strong> Standard public cybersecurity tools are allowed. Tools intended to disrupt the competition are prohibited.</li>
+        <li>
+            <strong>Rule violations</strong>
+            may result in immediate disqualification, forfeiture of prizes,
+            and removal from the competition.
+        </li>
+    </ol>
 
-    <li><strong>Illegal or reckless behavior</strong> may result in disqualification and referral to NFSU disciplinary processes where applicable.</li>
+    <h2>Organizers / Contact</h2>
 
-    <li><strong>Respect physical boundaries.</strong> Maintain appropriate conduct within the computer labs.</li>
+    <ul>
+        <li><strong>Dhruvil:</strong> +91 6359012479</li>
+        <li><strong>Om:</strong> +91 9687434746</li>
+        <li><strong>Harshil:</strong> +91 8320755656</li>
+    </ul>
 
-    <li><strong>No offensive or abusive language.</strong> This includes chat messages, usernames, aliases, or interactions.</li>
+    <p class="note">
+        Participants are expected to read and understand all rules before
+        participating in the competition.
+    </p>
 
-    <li><strong>No physical or emotional abuse.</strong> Harassment, humiliation, ridicule, or degrading behavior toward anyone is prohibited.</li>
-
-    <li><strong>Organizer's decision is final.</strong> Harshil, Dhruvil, and Om have the final authority on disputes and rule interpretation.</li>
-
-    <li><strong>Rule violations</strong> may result in immediate disqualification, forfeiture of prizes, and removal from the competition.</li>
-</ol>
-
-<h2>Prizes</h2>
-
-<ul>
-    <li>🏆 <strong>Total Prize Pool:</strong> ₹7,000</li>
-    <li>Certificates of participation for all registered competitors who solve at least one challenge.</li>
-    <li>Top scorers will be announced on the live scoreboard and recognized during the closing ceremony.</li>
-</ul>
-
-<h2>Questions?</h2>
-
-<p>
-Reach out to any student coordinator 
-<strong> <li>
-        <ul>Dhruvil: +91 6359012479</ul>
-        <ul>Om: +91 9687434746</ul>
-        <ul>Harshil: +91 8320755656</ul>
-    </li></strong> —
-before or during the event.
-</p>
-
-<p class="note">
-Rules are subject to change at organizer discretion. Any updates will be communicated before the registration deadline.
-</p>
-
-<div class="footer">
-    <strong>Swaraj CTF 2026</strong><br>
-    Forge Resilience. Celebrate Freedom. Hack for Glory.
-</div>
+    <div class="footer">
+        <strong>Good luck, and play fair!</strong>
+    </div>
 
 </div>
 
 </body>
 </html>
+```
