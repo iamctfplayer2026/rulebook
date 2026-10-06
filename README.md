@@ -1,6 +1,6 @@
-# Swaraj CTF 2026 — Rules
+# Kavach CTF 2026 — Rules
 
-**Independence Day Special | Forge Resilience. Celebrate Freedom. Hack for Glory.**
+**National Cyber Security Awareness Month Special | Learn. Break. Defend.**
 
 We have a few rules and requirements (subject to change), and we really think you should read them. Why? Because if you violate them, we reserve the right to disqualify you and remove you from the competition. Also, if you don't bring the recommended items, you could be at a serious disadvantage.
 
@@ -10,21 +10,19 @@ We have a few rules and requirements (subject to change), and we really think yo
 
 | Item | Details |
 |---|---|
-| Event | Swaraj CTF 2026 |
-| Theme | Independence Day |
-| Date | 14 August 2026 |
+| Event | Kavach CTF 2026 |
+| Theme | National Cyber Security Awareness Month (NCSAM) |
+| Date | 10 October 2026 (Saturday) |
 | Time | 2:00 PM – 6:00 PM |
 | Duration | 4 Hours |
 | Mode | Online (On-campus only) |
-| Venue | NFSU Computer Labs 211 & 212 |
+| Venue | NFSU Goa, Computer Labs 211 & 212 |
 | Format | Jeopardy |
-| Categories | Web, Crypto, Reverse, Pwn, Forensics, OSINT, Mobile, Misc. |
+| Categories | Web, Crypto, Forensics, Misc. and more |
 | Participation | Individual (Solo) |
-| Eligibility | Only NFSU Students |
+| Eligibility | Only NFSU Goa Students |
 | Registration Fee | Free |
-| Registration Deadline | 13 August 2026, 12:00 AM |
-| Prize Pool | ₹7,000 (cash) |
-| Coordinators | Harshil, Dhruvil, Om |
+| Registration Deadline | 9 October 2026, 11:59 PM (no late entries) |
 
 ---
 
@@ -32,8 +30,8 @@ We have a few rules and requirements (subject to change), and we really think yo
 
 - Your **NFSU Student ID** mandatory for entry and eligibility verification.
 - A laptop capable of connecting to the lab network (wired or wireless). Lab systems will also be available.
-- Your **registration confirmation** (emailed after you register). If you didn't receive one, something went wrong — contact a coordinator immediately, don't wait until event day.
-- Your thinking cap and your sense of humor. This is a celebration of Independence Day as much as it is a competition.
+- Your **registration confirmation** (emailed after you register). If you didn't receive one, something went wrong — contact an organizer immediately, don't wait until event day.
+- Your thinking cap and your sense of humor. This is a celebration of Cyber Security Awareness Month as much as it is a competition.
 
 ---
 
@@ -45,13 +43,13 @@ We have a few rules and requirements (subject to change), and we really think yo
 
 3. **Solo competition only.** This is an individual event. No teaming up, no sharing flags, no sharing solutions or methodologies with other participants during the event.
 
-4. **Eligibility.** Only currently enrolled NFSU students may compete. Organizers reserve the right to verify Student ID and enrollment at any point.
+4. **Eligibility.** Only currently enrolled NFSU Goa students may compete. Organizers reserve the right to verify Student ID and enrollment at any point.
 
 5. **No cheating or unauthorized external help.** Solve challenges using your own skills. Do not search for or share exact flag answers online, in group chats, or forums during the event.
 
 6. **Stay in scope.** Do not attempt to attack systems, infrastructure, or services that are not explicitly part of the CTF challenges — including the scoreboard platform itself, other labs, or campus network infrastructure.
 
-7. **Flag format.** All flags follow the format `SWARAJ{...}`. Flags not matching this format are not valid.
+7. **Flag format.** All flags follow the format `NCSAM{...}`. Flags not matching this format are not valid.
 
 8. **No brute-forcing flags.** Submit flags only when you're reasonably confident. Repeated incorrect submissions may lead to a submission cooldown, point penalty, or account suspension.
 
@@ -63,26 +61,25 @@ We have a few rules and requirements (subject to change), and we really think yo
 
 12. **Respect and maintain appropriate physical boundaries with others** in the lab at all times.
 
-13. **Avoid offensive, harassing, or sexually explicit language** in chat, usernames, or team/player aliases.
+13. **Avoid offensive, harassing, or sexually explicit language** in chat, usernames, or player aliases.
 
 14. **No physical or emotional abuse of others**, including but not limited to striking, humiliating, ridiculing, or degrading fellow participants or organizers.
 
-15. **Organizer's decision is final.** In the event of disputes, ambiguous situations, or rule interpretation questions, the ruling made by the Swaraj CTF organizers (Harshil, Dhruvil, Om) is final.
+15. **Organizer's decision is final.** In the event of disputes, ambiguous situations, or rule interpretation questions, the ruling made by the Kavach CTF organizers is final.
 
-16. **Any rule violation may result in immediate disqualification**, forfeiture of prizes, and points earned.
+16. **Any rule violation may result in immediate disqualification** and forfeiture of all points earned.
 
 ---
 
-## Prizes
+## Recognition
 
-- 🏆 Total Prize Pool: **₹7,000**
 - Certificates of participation for all registered competitors who solve at least one challenge
-- Top scorers will be announced on the live scoreboard and felicitated at closing ceremony.
+- Top scorers will be announced on the live scoreboard and felicitated at the closing ceremony.
 
 ---
 
 ## Questions?
 
-Reach out to any student coordinator — **Harshil, Dhruvil, or Om** — before or during the event.
+Reach out to any Kavach CTF organizer before or during the event.
 
 *Rules are subject to change at organizer discretion. Any updates will be communicated before the registration deadline.*
