@@ -1,222 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CTF Rules & Guidelines</title>
-
-    <style>
-        body {
-            margin: 0;
-            padding: 30px;
-            background: #f5f5f5;
-            font-family: Arial, sans-serif;
-            color: #222;
-            line-height: 1.6;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: auto;
-            background: #fff;
-            padding: 35px;
-            border-radius: 12px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-        }
-
-        h1 {
-            text-align: center;
-            margin-bottom: 10px;
-        }
-
-        h2 {
-            margin-top: 35px;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 6px;
-        }
-
-        .subtitle {
-            text-align: center;
-            color: #555;
-            font-style: italic;
-            margin-bottom: 30px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-
-        th, td {
-            border: 1px solid #ccc;
-            padding: 12px;
-            text-align: left;
-        }
-
-        th {
-            background: #f0f0f0;
-        }
-
-        ul, ol {
-            padding-left: 22px;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        code {
-            background: #eee;
-            padding: 2px 6px;
-            border-radius: 4px;
-        }
-
-        .note {
-            margin-top: 25px;
-            font-style: italic;
-            color: #666;
-        }
-
-        .footer {
-            margin-top: 40px;
-            text-align: center;
-            color: #555;
-            font-size: 15px;
-        }
-
-        strong {
-            color: #111;
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kavach CTF 2026 — Rules</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root { --navy: #0B2545; --teal: #0891B2; --amber: #F59E0B; --muted: #5B6B82; --line: #D5E0EC }
+  * { box-sizing: border-box }
+  body { margin: 0; color: var(--navy); font: 16px/1.65 "Bricolage Grotesque", system-ui, sans-serif;
+         background: radial-gradient(circle at 85% 0, #D3EEF5 0, transparent 45%), #F7FAFC }
+  .rules { max-width: 820px; margin: 0 auto; padding: 48px 20px 64px }
+  h1 { font-size: clamp(34px, 7vw, 56px); line-height: 1; letter-spacing: -.03em; margin: 0 0 12px }
+  h1 span { color: var(--teal) }
+  .tagline { font: 700 12px "JetBrains Mono", monospace; letter-spacing: .14em; text-transform: uppercase; color: var(--teal); margin: 0 0 24px }
+  h2 { font-size: 26px; letter-spacing: -.02em; margin: 44px 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--navy) }
+  .snapshot { background: #fff; border: 1px solid var(--line); border-radius: 12px; overflow-x: auto;
+              box-shadow: 0 12px 28px rgba(11, 37, 69, .08) }
+  table { width: 100%; border-collapse: collapse }
+  th, td { text-align: left; padding: 11px 18px; border-bottom: 1px solid var(--line); vertical-align: top }
+  tr:last-child th, tr:last-child td { border-bottom: 0 }
+  th { width: 36%; font: 700 12px "JetBrains Mono", monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--teal) }
+  ul, ol { padding-left: 1.4em }
+  li { margin-bottom: 12px }
+  ol li::marker { font: 700 14px "JetBrains Mono", monospace; color: var(--teal) }
+  code { font: 700 .95em "JetBrains Mono", monospace; background: var(--navy); color: #FFC14D; padding: 2px 8px; border-radius: 5px }
+  .note { margin-top: 36px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; font-style: italic }
+</style>
 </head>
-
 <body>
+<main class="rules">
+  <h1>Kavach <span>CTF</span> 2026 — Rules</h1>
+  <p class="tagline">National Cyber Security Awareness Month Special | Learn. Break. Defend.</p>
 
-<div class="container">
+  <p>We have a few rules and requirements (subject to change), and we really think you should read them. Why? Because if you violate them, we reserve the right to disqualify you and remove you from the competition. Also, if you don't bring the recommended items, you could be at a serious disadvantage.</p>
 
-    <h1>CTF Rules & Guidelines</h1>
+  <h2>Event Snapshot</h2>
+  <div class="snapshot">
+    <table>
+      <tr><th>Event</th><td>Kavach CTF 2026</td></tr>
+      <tr><th>Theme</th><td>National Cyber Security Awareness Month (NCSAM)</td></tr>
+      <tr><th>Date</th><td>10 October 2026 (Saturday)</td></tr>
+      <tr><th>Time</th><td>2:00 PM – 6:00 PM</td></tr>
+      <tr><th>Duration</th><td>4 Hours</td></tr>
+      <tr><th>Mode</th><td>Online (On-campus only)</td></tr>
+      <tr><th>Venue</th><td>NFSU Goa, Computer Labs 211 &amp; 212</td></tr>
+      <tr><th>Format</th><td>Jeopardy</td></tr>
+      <tr><th>Categories</th><td>Web, Crypto, Forensics, Misc. and more</td></tr>
+      <tr><th>Participation</th><td>Individual (Solo)</td></tr>
+      <tr><th>Eligibility</th><td>Only NFSU Goa Students</td></tr>
+      <tr><th>Registration Fee</th><td>Free</td></tr>
+      <tr><th>Registration Deadline</th><td>9 October 2026, 11:59 PM (no late entries)</td></tr>
+    </table>
+  </div>
 
-    <p class="subtitle">
-        National Forensic Sciences University (NFSU) Goa Campus
-    </p>
+  <h2>What Do I Need to Bring?</h2>
+  <ul>
+    <li>Your <strong>NFSU Student ID</strong> mandatory for entry and eligibility verification.</li>
+    <li>A laptop capable of connecting to the lab network (wired or wireless). Lab systems will also be available.</li>
+    <li>Your <strong>registration confirmation</strong> (emailed after you register). If you didn't receive one, something went wrong — contact an organizer immediately, don't wait until event day.</li>
+    <li>Your thinking cap and your sense of humor. This is a celebration of Cyber Security Awareness Month as much as it is a competition.</li>
+  </ul>
 
-    <h2>Competition Rules</h2>
+  <h2>Competition Rules</h2>
+  <ol>
+    <li><strong>Don't be a jerk.</strong> Attacking your fellow participants, organizers, or competition infrastructure outside the defined challenge scope is not okay and will result in immediate disqualification. Challenge targets/IPs will be explicitly listed — only interact with those.</li>
+    <li><strong>No Denial of Service (DoS), disruption, or platform abuse.</strong> No large-scale bruteforcing, automated scanning, or actions that degrade the platform for others, unless a specific challenge explicitly requires it.</li>
+    <li><strong>Solo competition only.</strong> This is an individual event. No teaming up, no sharing flags, no sharing solutions or methodologies with other participants during the event.</li>
+    <li><strong>Eligibility.</strong> Only currently enrolled NFSU Goa students may compete. Organizers reserve the right to verify Student ID and enrollment at any point.</li>
+    <li><strong>No cheating or unauthorized external help.</strong> Solve challenges using your own skills. Do not search for or share exact flag answers online, in group chats, or forums during the event.</li>
+    <li><strong>Stay in scope.</strong> Do not attempt to attack systems, infrastructure, or services that are not explicitly part of the CTF challenges — including the scoreboard platform itself, other labs, or campus network infrastructure.</li>
+    <li><strong>Flag format.</strong> All flags follow the format <code>NCSAM{...}</code>. Flags not matching this format are not valid.</li>
+    <li><strong>No brute-forcing flags.</strong> Submit flags only when you're reasonably confident. Repeated incorrect submissions may lead to a submission cooldown, point penalty, or account suspension.</li>
+    <li><strong>Tie-breaking.</strong> In case of equal scores, the participant who reached that score first (earlier last-solve timestamp) is ranked higher — <em>(confirm this matches your scoring platform before publishing)</em>.</li>
+    <li><strong>Only approved tools.</strong> Standard, publicly available cybersecurity tools are allowed. Malicious automated attack tools intended to disrupt the platform or other participants are strictly forbidden.</li>
+    <li><strong>If you do anything stupid or illegal, you may be subject to disqualification and further consequences</strong>, including referral to NFSU disciplinary processes where applicable.</li>
+    <li><strong>Respect and maintain appropriate physical boundaries with others</strong> in the lab at all times.</li>
+    <li><strong>Avoid offensive, harassing, or sexually explicit language</strong> in chat, usernames, or player aliases.</li>
+    <li><strong>No physical or emotional abuse of others</strong>, including but not limited to striking, humiliating, ridiculing, or degrading fellow participants or organizers.</li>
+    <li><strong>Organizer's decision is final.</strong> In the event of disputes, ambiguous situations, or rule interpretation questions, the ruling made by the Kavach CTF organizers is final.</li>
+    <li><strong>Any rule violation may result in immediate disqualification</strong> and forfeiture of all points earned.</li>
+  </ol>
 
-    <ol>
-        <li>
-            <strong>No Denial of Service (DoS), disruption, or platform abuse.</strong>
-            No large-scale bruteforcing, automated scanning, or actions that degrade
-            the platform unless explicitly required by a challenge.
-        </li>
+  <h2>Recognition</h2>
+  <ul>
+    <li>Certificates of participation for all registered competitors who solve at least one challenge</li>
+    <li>Top scorers will be announced on the live scoreboard and felicitated at the closing ceremony.</li>
+  </ul>
 
-        <li>
-            <strong>Solo competition only.</strong>
-            No teaming, sharing flags, solutions, or methodologies during the event.
-        </li>
+  <h2>Questions?</h2>
+  <p>Reach out to any Kavach CTF organizer before or during the event.</p>
 
-        <li>
-            <strong>Eligibility.</strong>
-            Only currently enrolled NFSU students may compete.
-            Student ID verification may occur at any time.
-        </li>
-
-        <li>
-            <strong>No cheating or unauthorized external help.</strong>
-            Solve challenges using your own skills. Do not search for or share
-            exact flag answers online.
-        </li>
-
-        <li>
-            <strong>Stay in scope.</strong>
-            Do not attack systems outside the designated CTF environment,
-            including the scoreboard, campus infrastructure, or unrelated services.
-        </li>
-
-        <li>
-            <strong>Flag format.</strong>
-            Every valid flag follows the format <code>Swaraj{...}</code>.
-        </li>
-
-        <li>
-            <strong>No brute-forcing flags.</strong>
-            Excessive incorrect submissions may trigger cooldowns, penalties,
-            or suspension.
-        </li>
-
-        <li>
-            <strong>Tie-breaking.</strong>
-            If scores are equal, the participant who reached the score first
-            (earlier last-solve timestamp) ranks higher.
-        </li>
-
-        <li>
-            <strong>Only approved tools.</strong>
-            Standard public cybersecurity tools are allowed.
-            Tools intended to disrupt the competition are prohibited.
-        </li>
-
-        <li>
-            <strong>Internet connectivity.</strong>
-            The college/organizers do not guarantee the availability,
-            reliability, speed, or uninterrupted access to the internet during
-            the competition. Participants are responsible for arranging and
-            managing their own internet connection if required for the CTF.
-        </li>
-
-        <li>
-            <strong>Illegal or reckless behavior</strong>
-            may result in disqualification and referral to NFSU disciplinary
-            processes where applicable.
-        </li>
-
-        <li>
-            <strong>Respect physical boundaries.</strong>
-            Maintain appropriate conduct within the computer labs.
-        </li>
-
-        <li>
-            <strong>No offensive or abusive language.</strong>
-            This includes chat messages, usernames, aliases, or interactions.
-        </li>
-
-        <li>
-            <strong>No physical or emotional abuse.</strong>
-            Harassment, humiliation, ridicule, or degrading behavior toward
-            anyone is prohibited.
-        </li>
-
-        <li>
-            <strong>Organizer's decision is final.</strong>
-            CTF committee have the final authority on disputes
-            and rule interpretation.
-        </li>
-
-        <li>
-            <strong>Rule violations</strong>
-            may result in immediate disqualification, forfeiture of prizes,
-            and removal from the competition.
-        </li>
-    </ol>
-
-    <h2>Organizers / Contact</h2>
-
-    <ul>
-        <li><strong>Dhruvil:</strong> +91 6359012479</li>
-        <li><strong>Om:</strong> +91 9687434746</li>
-        <li><strong>Harshil:</strong> +91 8320755656</li>
-    </ul>
-
-    <p class="note">
-        Participants are expected to read and understand all rules before
-        participating in the competition.
-    </p>
-
-    <div class="footer">
-        <strong>Good luck, and play fair!</strong>
-    </div>
-
-</div>
-<!-- U3dhcmFqe1dlbGNvbWVfVG9fVGhlX1BsYXlncm91bmRfU3dhcmFqXzIwMjZ9 -->
+  <p class="note">Rules are subject to change at organizer discretion. Any updates will be communicated before the registration deadline.</p>
+</main>
 </body>
 </html>
